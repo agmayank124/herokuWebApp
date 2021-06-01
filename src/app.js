@@ -23,7 +23,7 @@ app.get("/weather", (req, res) => {
 });
 app.get("*", (req, res) => {
   res.render("404error", {
-    errMessage: "Page Not Found",
+    errMessage: "Page Was Not Found ",
   });
 });
 
